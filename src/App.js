@@ -8,7 +8,7 @@ function App() {
       <HeaderComponent name='asd'/>
       <HeaderComponent name='asxd'/>
       <HeaderComponent name='assd'/>
-      <HeaderComponent/>
+      <HeaderComponent name='123'/>
     </>
   );
 }
