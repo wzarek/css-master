@@ -5,7 +5,6 @@ import Menu from './menu/Menu'
 const Homepage = () => {
   return (
     <main className='w-3/4 m-auto'>
-      <Menu/>
       <WelcomeInfo />
       <ProperiesMenu />
     </main>
