@@ -1,5 +1,5 @@
 import React from 'react'
-import ProperiesMenu from './ProperiesMenu'
+import PropertiesMenu from './PropertiesMenu'
 import WelcomeInfo from './WelcomeInfo'
 import Menu from './menu/Menu'
 const Homepage = () => {
@@ -7,7 +7,7 @@ const Homepage = () => {
     <main className='w-3/4 m-auto'>
       <Menu/>
       <WelcomeInfo />
-      <ProperiesMenu />
+      <PropertiesMenu />
     </main>
   )
 }

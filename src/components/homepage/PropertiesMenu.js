@@ -1,7 +1,7 @@
 import React from 'react'
 import Property from './Property'
 
-const ProperiesMenu = () => {
+const PropertiesMenu = () => {
   return (
     <div className='flex flex-row justify-evenly mt-4'>
       <Property name='border-radius' />
@@ -12,4 +12,4 @@ const ProperiesMenu = () => {
   )
 }
 
-export default ProperiesMenu
+export default PropertiesMenu
