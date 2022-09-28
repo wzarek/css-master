@@ -7,6 +7,7 @@ const Homepage = () => {
     <main className='w-3/4 m-auto'>
       <WelcomeInfo />
       <PropertiesMenu />
+      <Menu />
     </main>
   )
 }
