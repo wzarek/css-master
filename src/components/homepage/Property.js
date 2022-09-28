@@ -1,5 +1,5 @@
 import React from 'react'
-
+import PropertyInfo from './PropertyInfo'
 
 const Property = (props) => {
   return (
