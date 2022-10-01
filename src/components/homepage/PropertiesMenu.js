@@ -4,10 +4,10 @@ import Property from './Property'
 const PropertiesMenu = () => {
   return (
     <div className='flex flex-row justify-evenly mt-4'>
-      <Property name='border-radius' />
-      <Property name='animation' />
-      <Property name='box-shadow' />
-      <Property name='gradient' />
+      <Property name='Border-radius' url='/temp' />
+      <Property name='Animation' />
+      <Property name='Box-shadow' />
+      <Property name='Gradient' />
     </div>
   )
 }

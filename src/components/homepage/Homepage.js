@@ -8,8 +8,6 @@ const Homepage = () => {
       <WelcomeInfo />
       <PropertiesMenu />
       <Menu />
-    </main>
-      <ProperiesMenu />
     </>
 
   )
