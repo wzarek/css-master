@@ -4,6 +4,7 @@ import Homepage from './components/homepage/Homepage'
 import Menu from './components/homepage/menu/Menu'
 import About from './components/about/About'
 import Temp from './components/Temp'
+import PropertySite from './components/homepage/PropertySite'
 
 const App = () => {
   return (
@@ -15,7 +16,9 @@ const App = () => {
           <Route path='/about' element={<About />} />
           <Route path='/temp' element={<Temp />} />
         </Routes>
+        <PropertySite />
       </main>
+
     </div>
   )
 }
