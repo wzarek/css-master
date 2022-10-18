@@ -20,7 +20,7 @@ const Temp = () => {
      
       <PropertyMenu /> 
       <div className='flex justify-between mt-20' >
-        <div>
+        <div >
             <div className='h-10 w-10 box-content bg-black my-7 mx-auto border-white border-solid' ref={divRef}></div>
             <form>
               left:

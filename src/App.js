@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className='min-h-screen bg-gradient-to-r from-slate-800 to-cyan-900 m-0 p-4 text-gray-200'>
       <Menu />
-      <main className='w-3/4 m-auto'>
+      <main className='w-4/5 m-auto'>
         <Routes>
           <Route path='/' element={<Homepage />} />
           <Route path='/about' element={<About />} />

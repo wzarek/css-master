@@ -4,7 +4,8 @@ import Sec from './PropertySuggestion'
 const SuggestionsMenu = () => {
   return (
 
-            <div className='justify-self-end w-44 h-[80vh] bg-black overflow-y-scroll  '>
+    <div className='justify-self-end w-1/5 h-[75vh] overflow-y-scroll border-4 border-gray-500 '>
+              
               <Sec name='Box'></Sec>
               <Sec name='Box'></Sec>
               <Sec name='Box'></Sec>
