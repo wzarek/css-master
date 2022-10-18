@@ -1,13 +1,15 @@
 import React from 'react'
-import ProperiesMenu from './ProperiesMenu'
+import PropertiesMenu from './PropertiesMenu'
 import WelcomeInfo from './WelcomeInfo'
 import Menu from './menu/Menu'
 const Homepage = () => {
   return (
     <>
       <WelcomeInfo />
-      <ProperiesMenu />
+      <PropertiesMenu />
+      <Menu />
     </>
+
   )
 }
 
