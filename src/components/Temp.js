@@ -1,8 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react'
-import Property from './homepage/Property'
 import PropertyMenu from './property/PropertyMenu'
 import SuggestionsMenu from './property/SuggestionsMenu'
-import PropertySite from './property/SuggestionsMenu'
 
 const Temp = () => {
     const divRef = useRef()
@@ -17,7 +15,6 @@ const Temp = () => {
 
   return (
     <div>
-     
       <PropertyMenu /> 
       <div className='flex justify-between mt-20' >
         <div >
@@ -32,9 +29,9 @@ const Temp = () => {
               bottom:
               <input type='number' onChange={e => setBorderData(prev => {return {...prev, ...{bottom: e.target.valueAsNumber}}})} value={borderData.bottom} />
             </form>
-          </div>
-          <SuggestionsMenu />
         </div>
+      <SuggestionsMenu />
+      </div>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
-import PropertyInfo from './PropertyInfo'
 import { Link } from 'react-router-dom'
+
 const Property = (props) => {
   return (
     <>
