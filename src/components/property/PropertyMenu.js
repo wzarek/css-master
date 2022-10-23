@@ -3,7 +3,7 @@ import Property from './Property'
 
 const PropertyMenu = () => {
   return (
-      <div className='flex flex-row gap-10  mt-4 w-75[vw] overflow-x-scroll bg-slate-700 p-5 rounded-2xl'>
+      <div className='flex flex-row gap-10 ml-24 mt-4 w-3/5 overflow-x-scroll bg-slate-700 p-5 rounded-2xl'>
           <Property name='Border-radius' url='/temp' />
           <Property name='Animation' />
           <Property name='Box-shadow' />
